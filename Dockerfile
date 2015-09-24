@@ -1,5 +1,6 @@
 # Pull base image.
-FROM touchtech/nodejs
+#FROM touchtech/nodejs
+FROM google/nodejs
 
 MAINTAINER touchtech <it@touchtech.com>
 
