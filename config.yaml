@@ -1,0 +1,3 @@
+auth:
+  htpasswd:
+    file: ./htpasswd
