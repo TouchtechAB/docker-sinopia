@@ -18,7 +18,7 @@ RUN rm -rf .git
 RUN npm cache clean
 
 ADD config.yaml /sinopia/config.yaml
-ADD .htaccess /sinopia/.htaccess
+ADD .htpasswd /sinopia/.htpasswd
 
 CMD ["./bin/sinopia"]
 
